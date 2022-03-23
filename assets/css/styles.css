@@ -1,0 +1,1181 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Poppins:wght@300&family=Ubuntu:wght@300&display=swap');
+
+
+/*========== ccs for whole body ====*/
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+.dance-font{
+    font-family: 'Dancing Script', cursive;
+}
+
+/*========== End of ccs for whole body ====*/
+
+
+/*========== ccs for nav ====*/
+a{
+    color: white;
+    text-decoration: none;
+}
+
+nav{
+    background-color: rgb(8, 8, 155);
+}
+.btn{
+    border-radius: 30px;
+
+}
+
+/*========== End ccs for nav ====*/
+
+/*========== ccs for hero/carousel ====*/
+
+#carouselExampleIndicators img{
+    object-fit: cover;
+    object-position: center;
+    height: 75vh;
+    overflow: hidden;
+}
+
+.carousel-item::before{
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    width: 100vw;
+    height: 100vh;
+    background: black;
+    opacity: 0.7;
+}
+
+.carousel-caption{
+    bottom: 160px;
+    padding: 0 100px 0 100px;
+}
+
+.carousel-caption h5{
+    font-size: 80px;
+    font-weight: 700;
+}
+
+.carousel-caption p{
+    font-size: 20px;
+    top: 2rem;
+}
+
+.slider-btn{
+    margin-top: 30px;
+}
+
+.slider-btn .btn{
+    background-color: blue;
+    color: white;
+    padding: 10px 20px 10px 20px;
+    font-size: 1rem;
+    border-radius: 0;
+    margin-right: 15px;
+
+}
+
+.slider-btn .btn-2{
+    background-color: white;
+    color: blue;
+}
+/*========== End of ccs for hero/carousel ====*/
+
+
+/*========== ccs for info box ====*/
+
+.section-2{
+    background-color: white;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-radius: 10px;
+    border: 4px solid #0b0d77;
+    margin-top: -90px;
+    margin-bottom: 50px;
+    position: relative;
+
+
+}
+
+.section-2 p{
+    font-weight: 700;
+}
+
+.section-2  i{
+    font-size: 30px;
+    margin: 0 10px;
+ }
+
+ .section-2  hr .line{
+    border-top: 3px double rgb(0, 0, 0);
+    color: rgb(0, 0, 0);
+    margin: 30px 0;
+  }
+
+  .section-2 .text1{
+      margin-top: -10px;
+  }
+
+  .section-2 .text{
+      margin-top: 5px;
+  }
+
+  .section-2 .mb-3 ::-webkit-input-placeholder{
+      color: white;
+  }
+
+  .section-2 .mb-3 .form-control{
+      border-radius: 10px;
+      background-color: #0b0d77;
+      padding: 12px 0px;
+      font-size: 20px;
+      margin-top: 20px;
+
+  }
+
+  .section-2 .mb-3 .btn{
+      margin-top: 20px;
+      background-color: #0b0d77;
+      border: none;
+      border-radius: 10px;
+  }
+
+  .section-2 .mb-4 .form{
+      border-radius: 5px;
+      padding: 12px 15px;
+      margin-top: 20px;
+      font-weight: 700;
+      border: 1px solid black;
+  }
+
+.vr {
+    border-left: 2px solid rgb(0, 0, 0);
+    height: 40px;
+    margin-left: 50px;
+}
+
+.d-e{
+    padding-top: 25px;
+}
+/*========== End of ccs for info box ====*/
+
+
+
+/*=============== Section-3 ===========*/
+.section-3{
+    display: flex;
+    background-color: rgb(255, 255, 255);
+    flex-direction: row;
+    padding: 40px;
+    margin-bottom: -50px;
+    position: relative;
+
+}
+
+.section-3 .names{
+    margin: auto;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+/*===============End of Section-3 ===========*/
+
+
+/*===============Section-4 ===========*/
+.section-4{
+    background-color: rgb(241, 246, 247);
+    padding-top: 100px;
+
+}
+.section-4 h3{
+    margin: 0 0 40px 0;
+}
+.section-4 .owl-carousel .owl-item .item{
+    width: 430px !important;
+    height: 500px !important;
+  }
+
+.section-4 .owl-carousel .owl-item .item img{
+        width: 430px !important;
+        height: 400px !important;
+        padding: 10px;
+        border-radius: 60px;
+    }
+
+
+    /*===============End of Section-4 ===========*/
+
+    /*===============Section-5 ===========*/
+.section-5{
+    background-color: rgb(255, 255, 255);
+    padding-top: 50px;
+}
+.section-5 h3{
+    margin: 0 0 40px 0;
+}
+.section-5 .owl-carousel .owl-item .item{
+    width: 430px !important;
+    height: 500px !important;
+  }
+
+.section-5 .owl-carousel .owl-item .item img{
+        width: 430px !important;
+        height: 400px !important;
+        padding: 10px;
+        border-radius: 60px;
+    }
+/*===============End of Section-5 ===========*/
+
+
+/*===============Section-6 ===========*/
+.section-6{
+    background-color: rgb(241, 246, 247);
+    margin-top: 80px;
+
+}
+.section-6 h3{
+    padding-top: 30px;
+    padding-bottom: 40px;
+}
+/*===============End of Section-6 ===========*/
+
+
+/*===============Section-7 ===========*/
+.section-7{
+    background-color: rgb(241, 246, 247);
+   padding-bottom: 100px;
+
+}
+.section-7 img{
+    width: 100%;
+    border-radius: 20px;
+    height: 100%;
+}
+
+.section-7 .pd img{
+    margin-bottom: 15px;
+}
+
+.section-7 .po img{
+    margin-top: 15px;
+}
+/*===============End of Section-7 ===========*/
+
+
+/*===============Section-8 ===========*/
+.section-8{
+    background-color: rgb(7, 7, 163);
+    margin: 160px 0;
+
+}
+.section-8 img{
+    width: 450px;
+    height: 350px;
+    margin-top: 20px;
+    margin-right: 100px;
+    box-shadow: 3.5rem 2.5rem rgb(255, 251, 2), -3.5rem -3.5rem rgb(234, 235, 229);
+}
+
+.section-8 .text{
+    color: white;
+    font-size: 30px;
+    font-weight: 700;
+    margin-top: 130px;
+}
+
+.section-8 button{
+    font-size: 40px;
+    font-weight: bold;
+    padding: 0 120px 0 60px;
+    border: none;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+
+/*===============End of Section-8 ===========*/
+
+/*============ Coustomer review======*/
+
+.slider {
+    margin-bottom: 30px;
+    position: relative;
+}
+  .slider .owl-item.active.center .slider-card {
+    transform: scale(1.15);
+    opacity: 1;
+    background: #ff9966; /* fallback for old browsers */
+    background: -webkit-linear-gradient(to bottom, #ff5e62, #ff9966); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to bottom, #ff5e62, #ff9966); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    color: #fff;
+  }
+  .slider-card {
+
+    padding: 0px 0px;
+    margin: 50px 15px 90px 15px;
+    border-radius: 5px;
+    box-shadow: 0 15px 45px -20px rgb(0 0 0 / 73%);
+    transform: scale(0.9);
+    transition: all 0.3s;
+  }
+  .slider-card img {
+    border-radius: 5px 5px 0px 0px;
+  }
+
+
+
+  .owl-nav .owl-prev {
+    position: absolute;
+    top: calc(50% - 25px);
+    left: 0;
+    opacity: 1;
+    font-size: 30px !important;
+    z-index: 1;
+  }
+  .owl-nav .owl-next {
+    position: absolute;
+    top: calc(50% - 25px);
+    right: 0;
+    opacity: 1;
+    font-size: 30px !important;
+    z-index: 1;
+  }
+  .owl-dots {
+    text-align: center;
+  }
+  .owl-dots .owl-dot {
+    height: 5px;
+    width: 5px;
+
+    background: #ccc !important;
+    margin-left: 3px;
+    margin-right: 3px;
+    outline: none;
+  }
+  .owl-dots .owl-dot.active {
+    background: #f44336 !important;
+  }
+
+  /*============ End of Coustomer review======*/
+
+
+  /*============ Footer section==============*/
+
+  footer{
+    background-color: rgb(7, 7, 163);
+    margin-top: 100px;
+    padding-top: 50px;
+  }
+
+  footer .col-md-5 img{
+      margin-top: -35px;
+  }
+
+  footer .top{
+      font-size: 15px;
+
+  }
+
+  footer .form-control{
+      border-radius: 10px;
+      padding: 20px;
+  }
+
+  footer .btn{
+      background-color: rgb(231, 179, 7);
+      color: rgb(255, 255, 255);
+      font-size: 30px;
+      font-weight: bold;
+      border-radius: 10px;
+      padding: 0 50px;
+  }
+
+  footer .vl {
+    border-left: 2px solid rgb(255, 255, 255);
+    position:absolute;
+    height: 180px;
+
+  }
+
+  footer .col-md-3, li, a{
+      list-style: none;
+      font-size: 18px;
+  }
+
+  hr.new4 {
+    border-top: 3px double rgb(255, 255, 255);
+    color: #fff;
+    margin: 30px 0;
+  }
+
+  footer .pm{
+      font-size: 22px;
+  }
+
+  footer .payments{
+      margin: 0 10px;
+  }
+
+  footer a i {
+     font-size: 30px;
+     margin: 0 5px;
+  }
+
+  footer .copy{
+      font-size: 18px;
+      padding-bottom: 30px;
+      margin-top: -20px;
+  }
+
+  /*============ End of Footer ==============*/
+
+
+
+.sect-3{
+    background-color: rgb(255, 255, 255);
+    padding: 30px;
+}
+
+.h4{
+    font-size: 30px;
+    padding: 5px 0 5px 0;
+    font-weight: 500;
+    text-align: center;
+
+}
+
+.hi-slide{
+    position: relative;
+    width: 800px;
+    height: 292px;
+    margin: 115px auto 0;
+}
+
+.hi-slide .hi-next,
+.hi-slide .hi-previous{
+    position: absolute;
+    top: 50%;
+    width: 40px;
+    height: 40px;
+    margin-top: -20px;
+    border-radius: 50px;
+    line-height: 40px;
+    text-align: center;
+    cursor: pointer;
+    background-color: blue;
+    color: white;
+    transition: all 0.7s;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.hi-slide .hi-next:hover,
+.hi-slide .hi-previous:hover{
+    opacity: 1;
+    background-color: black;
+}
+.hi-slide .hi-previous{
+    left: -70px;
+}
+
+.hi-slide .hi-previous::before{
+    content: '<';
+}
+
+.hi-slide .hi-next{
+    right: -70px;
+}
+
+.hi-slide .hi-next::before{
+    content: '>';
+}
+
+.hi-slide > ul{
+    list-style: none;
+    position: relative;
+    width: 754px;
+    height: 292px;
+    margin: 0;
+    padding: 0;
+}
+
+.hi-slide > ul > li{
+    overflow: hidden;
+    position: absolute;
+    z-index: 0;
+    left: 377px;
+    top: 147px;
+    width: 0;
+    height: 0;
+    margin: 0;
+    padding: 0;
+    border: 3px solid rgb(255, 255, 255);
+
+    cursor: pointer;
+}
+
+.hi-slide > ul > li > img{
+    width: 100% !important;
+    height: 100% !important;
+    background-position: lef;
+}
+
+
+/*=============== ABOUT PAGE CSS =============*/
+/*========== ccs for info box ====*/
+
+.section-02{
+    background-color: white;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-radius: 10px;
+    border: 4px solid #0b0d77;
+    margin-top: 60px;
+    margin-bottom: 50px;
+    position: relative;
+
+
+}
+
+.section-02 p{
+    font-weight: 700;
+}
+
+.section-02  i{
+    font-size: 30px;
+    margin: 0 10px;
+ }
+
+ .section-02 hr .news{
+    border-top: 3px double rgb(0, 0, 0);
+    color: rgb(0, 0, 0);
+    margin: 30px 0;
+  }
+
+  .section-02 .text1{
+      margin-top: -10px;
+  }
+
+  .section-02 .text{
+      margin-top: 5px;
+  }
+
+  .section-02 .mb-3 ::-webkit-input-placeholder{
+      color: white;
+  }
+
+  .section-02 .mb-3 .form-control{
+      border-radius: 10px;
+      background-color: #0b0d77;
+      padding: 12px 0px;
+      font-size: 20px;
+      margin-top: 20px;
+
+  }
+
+  .section-02 .mb-3 .btn{
+      margin-top: 20px;
+      background-color: #0b0d77;
+      border: none;
+      border-radius: 10px;
+  }
+
+  .section-02 .mb-4 .form{
+      border-radius: 5px;
+      padding: 12px 15px;
+      margin-top: 20px;
+      font-weight: 700;
+      border: 1px solid black;
+  }
+
+.section-02 .vr {
+    border-left: 2px solid rgb(0, 0, 0);
+    height: 40px;
+    margin-left: 50px;
+}
+
+.d-i{
+    padding-top: 25px;
+}
+/*========== End of ccs for info box ====*/
+
+/*========== START OF Adex PAGE ====*/
+.about-1{
+    margin: 30px 0;
+}
+
+.about-1 .first{
+    font-size: 45px;
+    font-weight: bolder;
+    color: black;
+}
+
+.about-1 .i-1{
+    margin-right: 280px;
+}
+.about-1 i{
+    font-size: 20px;
+    margin-top: 40px;
+   
+}
+
+.about-1 .d-f{
+    margin-right: 80px;
+}
+
+.about-1 .second{
+    color: rgb(184, 182, 182);
+    font-size: 20px;
+    font-weight: 800;
+    margin-right: 25px;
+}
+
+.about-1 button{
+
+    padding: 5px 30px !important;
+    border-radius: 10px;
+    margin-top: -10px;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.about-1 .d-f{
+    display: flex;
+    margin-left: 60px !important;
+}
+
+.about-2 .vl {
+    border-left: 2px solid rgb(184, 182, 182);
+    position: absolute;
+    height: 600px;
+    margin-left: -50px;
+    display: flex;
+}
+
+.about-2 .container-about{
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+    padding: 40px 20px 40px 150px;
+    border-radius: 30px;
+}
+
+.about-2 .container-about .first{
+    text-align: left;
+    font-size: 25px;
+    font-weight: 900;
+}
+
+.about-2 .container-about .second{
+    text-align: left;
+    font-size: 17px;
+    font-weight: 500;
+    color: #000 !important;
+    margin-bottom: 30px;
+}
+
+.about-2 .container-about .text{
+    color: rgb(184, 182, 182);
+}
+
+.about-2 .container-about .bg{
+    background-color: rgb(221, 132, 30);
+    padding: 1px 4px;
+    border-radius: 30px;
+}
+
+.about-2 .container-about .third{
+    text-align: left;
+    font-size: 17px;
+    font-weight: 500;
+    color: #000 !important;
+    margin: 30px 0;
+}
+
+.about-2 .container-about .fourth{
+    text-align: left;
+    font-size: 25px;
+    font-weight: 900;
+}
+
+.about-2 .container-about .fifth{
+    text-align: left;
+    font-size: 17px;
+    font-weight: 500;
+    color: #000 !important;
+}
+
+.about-2 .container-about .sixth{
+    text-align: left;
+    font-size: 25px;
+    font-weight: 900;
+}
+
+.about-2 .container-about .seventh{
+    text-align: left;
+    font-size: 17px;
+    font-weight: 500;
+    color: #000 !important;
+}
+
+.about-2 .btn{
+    margin-top: 30px;
+    margin-left: 100px !important;
+    font-size: 40px;
+    border-radius: 20px;
+    padding: 10px 50px;
+}
+
+
+.about-2 .col-md-5 img{
+    position: relative;
+    width: 100% !important;
+}
+
+
+.about-2 .row-1 .col-md-3{
+    margin: 6px;
+}
+
+/*========== END OF Adex PAGE ====*/
+
+/*========== START OF Cdex PAGE ====*/
+
+.contact-1{
+    margin: 50px 0;
+}
+.contact-1 .first{
+    font-size: 40px;
+    font-weight: bolder;
+    text-align: left;
+    margin-left: 20px;
+}
+
+.contact-1 .second{
+    font-size: 14px;
+    font-weight: 900;
+    margin-top: -20px;
+    margin-left: 20px;
+}
+
+.contact-1 .i-1{
+    margin-left: 80px !important;
+}
+.contact-1 i .fas{
+    font-size: 20px;
+    margin-top: 0px;
+   
+}
+
+
+.contact-1 .d-f{
+    display: flex;
+    margin-left: 80px !important;
+}
+
+.contact-1 .d-f button{
+   padding: 3px 20px !important;
+    border-radius: 10px;
+    margin-top: -10px;
+    font-weight: bold;
+    
+}
+
+.contact-1 .se{
+    color: rgb(184, 182, 182);
+    font-size: 18px;
+    font-weight: 900;
+    margin-right: 25px;
+}
+
+.contact-1 .shift{
+    margin-top: 20px;
+}
+.contact-1 .shift-1{
+    margin-top: 26px;
+}
+.contact-1 .shift-1 .btn{
+    padding: 15px 70px !important;
+    border-radius: 10px;
+    margin-top: -60px;
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: 150px;
+}
+
+.contact-1 .shift-1 i{
+    margin-left: 90px;
+    font-size: 50px;
+}
+
+.contact-2{
+    margin-bottom: 50px;
+}
+
+.contact-2 img{
+    margin: 5px 2px;
+}
+ .contact-3{
+     margin-top: 150px;
+ }
+.contact-3 .bg{
+    background-color: #0b0d77;
+    padding: 80px 50px 50px 50px;
+    margin-bottom: 50px;
+}
+
+.contact-3 .bg p{
+    color: #fff;
+    font-size: 20px;
+    font-weight: 800;
+}
+
+.contact-3 .bg button{
+    border-radius: 5px;
+}
+.contact-3 .bg .form-control{
+    padding: 16px;
+    border-radius: 5px;
+}
+
+.contact-3 .bg .form{
+    background-color: #ffffff;
+    border: none;
+    border-radius: 5px;
+}
+
+.contact-3 .mb-5 ::placeholder{
+    font-size: 25px;
+    font-weight: 700;
+    color: #fff;
+    text-align: center;
+    
+}
+
+.contact-3 .mb-5 input{
+    background-color: #518af5;
+    border: none;
+}
+.contact-3 .bn{
+    padding: 0 50px;
+}
+.contact-3 .items{
+    display: flex;
+    background-color: rgb(255, 255, 255);
+    flex-direction: row;
+    padding: 20px;
+    position: relative;
+    box-shadow: rgba(0, 0, 0, 0.315) 0px 25px 10px -20px;
+    margin-bottom: 20px;
+
+}
+
+.contact-3 .names{
+    margin: auto;
+    font-size: 25px;
+    font-weight: bold;
+}
+.contact-3 .items-1{
+    display: flex;
+    position: absolute;
+    margin-bottom: 20px;
+
+}
+.contact-3 .name{
+    margin: auto;
+    padding: 12px;
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.contact-3 .text{
+    margin-top: 70px;
+    font-size: 18px;
+    font-weight: 500;
+    text-align: justify;
+    color: #000;
+}
+
+.contact-3 .bn button{
+    font-size: 30px;
+    margin-left: 400px;
+    margin-top: 30px;
+    margin-bottom: 50px;
+    border-radius: 10px;
+    padding: 10px 80px;
+}
+
+.contact-4{
+    margin: 50px 0;
+}
+
+.contact-4 .col-md-8{
+    padding-left: 50px;
+    
+}
+
+.contact-4 h3{
+    font-size: 40px;
+    font-weight: bolder;
+    color: black;
+}
+
+.contact-4 h4{
+    font-size: 25px;
+    font-weight: 900;
+    color: black;
+}
+
+.contact-4 p{
+    font-size: 20px;
+    font-weight: 500;
+    color: #000;
+}
+
+.contact-4 .fa-car{
+    margin-right: 10px;
+    font-size: 30px;
+}
+
+.contact-4 .span{
+    color: rgb(134, 133, 133);
+}
+
+.contact-4 .fa-circle{
+    margin-right: 10px;
+    font-size: 10px;
+    margin-top: 10px;
+}
+
+.contact-4 .side-pics img{
+    width: 400px;
+    height: 300px;
+    margin: 10px;
+    border-radius: 20px;
+}
+
+.contact-4 .last-bg{
+    background-color: #0b0d77;
+    padding: 50px;
+    margin-top: 40px;
+}
+
+.contact-4 .last-text1{
+    color: #fff;
+    font-size: 25px;
+    margin-left: 150px;
+    margin-bottom: -5px;
+
+}
+
+.contact-4 .last-text{
+    color: #fff;
+    font-size: 15px;
+    margin-left: 150px;
+
+}
+
+.contact-4 .btn{
+    font-size: 20px;
+    font-weight: 900;
+    color: #518af5;
+    margin-left: 150px;
+}
+.contact-4 .fi-pic{
+    margin: 10px 0;
+}
+.contact-4 .fi-pic img{
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+    margin: 10px 5px;
+    border: 5px solid rgb(243, 227, 10);
+}
+
+.contact-4 .name{
+    font-weight: 800;
+    font-size: 20px;
+}
+
+.contact-4 .i-1{
+    margin-left: 400px;
+}
+
+.contact-4 .review{
+    margin-left: 120px;
+    margin-top: -70px;
+    font-weight: 400;
+}
+
+.contact-4 .primary{
+    color: #090cca;
+    margin-left: 500px;
+    font-size: 17px;
+    font-weight: 800;
+}
+/*========== END OF Cdex PAGE ====*/
+
+/*========== START OF ABOUT PAGE ====*/
+.abt{
+    margin: 100px 0;
+    
+}
+.abt img{
+    width: 100% !important;
+    
+}
+
+.abt h3{
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.abt p{
+    font-size: 19px;
+    font-weight: 500;
+}
+
+.abt1{
+    margin: 100px 0;
+    
+}
+
+.abt1 img{
+    width: 100% !important;
+    
+}
+
+.abt1 h3{
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.abt1 p{
+    font-size: 19px;
+    font-weight: 500;
+}
+/*========== END OF ABOUT PAGE ====*/
+
+/*========== START OF CONTACT PAGE ====*/
+.contact1{
+    
+    padding: 40px 0;
+}
+
+.contact1 h2{
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.contact1 .col-md-12 p{
+    font-size: 19px;
+    font-weight: 500;
+}
+
+.contact1 form{
+    background-color: #dee0bd;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.contact1 label{
+    text-align: right !important;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.contact1 input{
+    border-radius: 30px;
+}
+
+.contact1 button{
+    font-size: 20px;
+    border-radius: 10px;
+    padding: 8px 30px;
+    background-color: #0b772b;
+    border: none;
+}
+
+.contact1 .tx{
+    /*background-image: url(../img/firstslide2.jpg);*/
+    background: linear-gradient(to top, #1e019eba, #6901adcc), url(../img/firstslide2.jpg) no-repeat top center;
+    opacity: 90%;
+    background-size: 700px 500px;
+    padding-top: 120px;
+
+}
+
+.contact1 .tx h3{
+    font-size: 30px;
+    font-weight: 600;
+    color: rgb(255, 255, 255);
+}
+
+.contact1 .tx p{
+    font-size: 18px;
+    font-weight: 500;
+    color: rgb(255, 255, 255);
+}
+/*========== END OF CONTACT PAGE ====*/
+
+
+/*========== START OF LIST PAGE ====*/
+.com .col-md-12{
+    margin: 40px 0;
+}
+.com h3{
+    font-size: 35px;
+    font-weight: 700;
+}
+.com p{
+    font-size: 19px;
+    font-weight: 500;
+}
+
+.com form{
+    background-color: rgba(31, 28, 226, 0.062);
+    padding: 40px;
+    border-radius: 20px;
+}
+
+.com label{
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.com input{
+    border-radius: 30px;
+}
+
+.com select{
+    border-radius: 30px;
+}
+
+.com button{
+    font-size: 20px;
+    border: none;
+    border-radius: 10px;
+    padding: 8px 30px;
+    background-color: #0b772b;
+}
+
+/*========== END OF LIST PAGE ====*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
